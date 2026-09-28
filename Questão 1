@@ -1,0 +1,46 @@
+Questão 1 - Respostas. obs: descondiderar trecho do item 10 a partir de "c3"
+
+git clone https://github.com/palmiery/DIM0517_2026_2_Q1.git
+git config --global user.name "palmiery"
+git config --global user.email "rpscti@hotmail.com"
+echo "AA" > h1.c
+echo "BB" > h2.c
+git status
+cat h1.c 
+cat h2.c
+gti add .
+git status
+echo "AA" >> h1.git commit -m "c4"c
+cat h1.c 
+git status
+git add .
+git commit -m "c2"
+git checkout HEAD~1
+git checkout -b b1
+echo "AAAA" > h1.c
+git status
+git add .
+echo "BB" >> h2.c 
+git status
+git add .
+git commit -m "c4"
+git switch main
+git merge b1 (conflito)
+git switch main (correção no arquivo h2.c
+git status
+git add .
+git commit -m "c4"
+git tag -a t1 -m "Tag t1"
+git push origin main
+git push -u origin b1
+git push origin --tags
+
+
+
+
+
+
+
+
+
+
